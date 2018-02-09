@@ -1,107 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_144"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/cglib-nodep-3.2.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/commons-io-2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/commons-lang3-3.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/cssparser-0.9.23.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/gson-2.8.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/htmlunit-2.27.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/htmlunit-core-js-2.27.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/htmlunit-driver-2.27.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/httpmime-4.5.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/javax.servlet-api-3.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/jetty-client-9.4.5.v20170502.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/jetty-http-9.4.5.v20170502.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/jetty-io-9.4.5.v20170502.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/jetty-util-9.4.5.v20170502.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/neko-htmlunit-2.27.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/phantomjsdriver-1.4.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/sac-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/serializer-2.7.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/websocket-api-9.4.5.v20170502.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/websocket-client-9.4.5.v20170502.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/websocket-common-9.4.5.v20170502.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/xalan-2.7.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/xercesImpl-2.11.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/lib/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-path-3.0.6-dist/docs/json-path-3.0.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-path-3.0.6-dist/docs/json-path-3.0.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-path-3.0.6-dist/docs/rest-assured-common-3.0.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-path-3.0.6-dist/docs/rest-assured-common-3.0.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-path-3.0.6-dist/json-path-3.0.6-deps/groovy-2.4.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-path-3.0.6-dist/json-path-3.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/docs/json-schema-validator-3.0.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/docs/json-schema-validator-3.0.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/btf-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/jackson-annotations-2.7.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/jackson-core-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/jackson-coreutils-1.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/jackson-databind-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/joda-time-2.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/jopt-simple-4.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/json-schema-core-1.2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/jsr305-3.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/libphonenumber-6.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/mailapi-1.4.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/msg-simple-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/rhino-1.7R4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6-deps/uri-template-0.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/json-schema-validator-3.0.6-dist/json-schema-validator-3.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/Restapi-Oauth jars/scribejava-apis-2.5.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/Restapi-Oauth jars/scribejava-core-2.5.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/docs/rest-assured-3.0.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/docs/rest-assured-3.0.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/docs/xml-path-3.0.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/docs/xml-path-3.0.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/rest-assured-3.0.6-deps/groovy-json-2.4.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/rest-assured-3.0.6-deps/groovy-xml-2.4.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/rest-assured-3.0.6-deps/hamcrest-library-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/rest-assured-3.0.6-deps/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/rest-assured-3.0.6-deps/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/rest-assured-3.0.6-deps/jaxb-api-2.2.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/rest-assured-3.0.6-deps/tagsoup-1.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/rest-assured-3.0.6-dist/rest-assured-3.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/scala-support-3.0.6-dist/scala-support-3.0.6-deps/jaxb-api-2.2.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/scala-support-3.0.6-dist/scala-support-3.0.6-deps/scala-library-2.11.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/scala-support-3.0.6-dist/scala-support-3.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/xml-path-3.0.6-dist/xml-path-3.0.6-deps/jaxb-api-2.2.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/RestAssured Jars/xml-path-3.0.6-dist/xml-path-3.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/lib/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/lib/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/curvesapi-1.04.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/poi-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/poi-examples-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/poi-excelant-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/poi-bin-3.17-20170915/poi-3.17/poi-scratchpad-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/testng-6.11.jar" sourcepath="C:/Users/Richa/.m2/repository/org/testng/testng/6.11/testng-6.11-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/cucumber jars/cobertura-1.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/cucumber jars/mockito-all-1.10.19.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Downloads/cucumber-java-1.2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Downloads/cucumber-junit-1.2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Downloads/cucumber-core-1.2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/cucumber jars/gherkin-2.12.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/cucumber jars/cucumber-jvm-deps-1.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/cucumber jars/cucumber-reporting-3.13.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/selenium-java-3.8.0/libs/guava-23.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/extentreports-2.40.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/extent jars/freemarker-2.3.23.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/extent jars/jsoup-1.8.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/extent jars/sqlite-jdbc-3.8.11.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Documents/APPIUM SOFTWARES/extent jars/cucumber-extentsreport-2.0.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Richa/Downloads/cucumber-testng-1.2.5.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry path="bin/default" kind="output"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="C:/Users/Richa/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.1.1/4503923786b951df9a77ac876fdb885d5e907329/groovy-all-2.1.1-sources.jar" kind="lib" path="C:/Users/Richa/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.1.1/346ed02f8d626f54d0a9b5dd9a6d492881de0cdb/groovy-all-2.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Richa/.gradle/caches/modules-2/files-2.1/info.cukes/gherkin/2.11.6/9c748bc352da82b02093c9279e743aa33e0fe550/gherkin-2.11.6-sources.jar" kind="lib" path="C:/Users/Richa/.gradle/caches/modules-2/files-2.1/info.cukes/gherkin/2.11.6/7f85e72fbbb7f5f0abd54a5069d9d63c45888577/gherkin-2.11.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - org.seleniumhq.selenium selenium-support ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - org.seleniumhq.selenium selenium-firefox-driver ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - org.seleniumhq.selenium selenium-chrome-driver ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - org.seleniumhq.selenium selenium-ie-driver ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - org.seleniumhq.selenium selenium-remote-driver ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - org.seleniumhq.selenium selenium-server ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - org.codehaus.geb geb-core ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - info.cukes cucumber-java ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - info.cukes cucumber-core ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Richa/git/CucumberFramework/TwitterCucumber/unresolved dependency - info.cukes cucumber-junit ">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
 </classpath>

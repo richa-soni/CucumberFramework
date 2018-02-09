@@ -1,33 +1,28 @@
 package eventLibrary;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.io.File;
-import java.io.IOException;
-
-import org.apache.commons.io.FileUtils;
-//import org.apache.log4j.Logger;
 
 public class commonMethods implements BrowserSessionInterface{
 
-//public static Logger logger=Logger.getLogger(commonMethods.class.getName());
+public static Logger logger=Logger.getLogger(commonMethods.class.getName());
 jqueryRunner jqRunner=new jqueryRunner();
 webDriverDetails details=new webDriverDetails();	
 	
 	public void enterURL(String url) {
 	try {
 		webDriverDetails.driver.get(url);
-	    //logger.info("URL is entered");
+	    logger.info("URL is entered");
 		
 	}catch(Exception e) {
-	  //logger.error("user is not able to enter URL");	
+	  logger.error("user is not able to enter URL");	
 	}
 
 }
-	@Override
 	public void userClickOnLink(String link) {
 		
 		
@@ -47,10 +42,9 @@ webDriverDetails details=new webDriverDetails();
 		this.jqRunner.executeJquery(arg);
 		
 	}
-	@Override
 	public void userClickOnButton(String buttonText) {
 		StringBuilder arg1=new StringBuilder();
-		arg1.append("'button'");
+		arg1.append("$('a')");
 		arg1.append(".filter(function() {");
 		arg1.append("return ($.trim(");
 		arg1.append("$(this).text()) == '");
@@ -58,22 +52,34 @@ webDriverDetails details=new webDriverDetails();
 		arg1.append("')"); 
 		arg1.append("})");
 		arg1.append(".click()");
-		
+		String arg=arg1.toString();
+		this.jqRunner.executeJquery(arg);
 	}
-
-	public WebDriver openBrowser(String browser) {
+public WebDriver openBrowser(String browser) {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	@Override
 	public void takeScreenshot(WebDriver driver, String string) {
 		// TODO Auto-generated method stub
 		
 	}
-	
+	public Boolean userVerifyState(String Text) {
+		StringBuilder arg1=new StringBuilder();
+		arg1.append("$('a')");
+		arg1.append(".filter(function() {");
+		arg1.append("return ($.trim(");
+		arg1.append("$(this).text()) == '");
+		arg1.append(Text);
+		arg1.append("')"); 
+		arg1.append("})");
+		arg1.append(".is(\":visible\")");
+		String arg=arg1.toString();
+		Boolean res=this.jqRunner.executeJqueryReturn(arg);
+		return res;
+	}
 	
 	}	
 	
-	
+
 
 	

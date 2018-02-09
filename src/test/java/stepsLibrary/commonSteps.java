@@ -1,10 +1,16 @@
 package stepsLibrary;
-import org.openqa.selenium.remote.ScreenshotException;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
+import org.junit.AfterClass;
+import org.openqa.selenium.remote.ScreenshotException;
+import org.testng.Assert;
 
 import com.relevantcodes.extentreports.ExtentReports;
 
 import FixtureFactory.FixtureManger;
+import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -42,8 +48,9 @@ FixtureManger fixture =new FixtureManger();
 	return tagFine;
  }
 
-@After
+@AfterClass
 public void cleanup() {
+	webDriverDetails.driver.quit();
 	report.clean();
 }
 
@@ -127,4 +134,28 @@ public void cleanup() {
 			}
 	}
 	 
-}
+	@When("^user verfies the text$")
+	public void user_verfies_button(DataTable arg2) throws Throwable {
+		String text="";
+		Map<String,String>m=arg2.asMap(String.class,String.class);
+       for(Entry<String, String> f:m.entrySet()) {
+    	   if(f.getKey().equals("Element")) {
+    		  text=f.getValue();
+    	   }
+    	   try {
+    	  if(f.getKey().equals("displayed")) {
+    		  Boolean result=this.session.userVerifyState(text);
+    		  if(result.equals(true)) {
+    			  Assert.assertTrue(result);
+    			  report.PassReporting("text displayed", dir+fileName, webDriverDetails.driver);
+    		  }
+    	  }
+    	   }catch(Exception e){
+    		  report.ErrorReporting("text not displayed",dir+fileName, webDriverDetails.driver);
+    	  }
+    	  }
+       }
+	    		
+	 
+	}
+
